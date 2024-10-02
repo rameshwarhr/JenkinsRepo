@@ -27,6 +27,7 @@ public class LoginPageTest extends BrowserFactory {
 		homepage.clickOnMenuButton();
 		Thread.sleep(1000);
 		homepage.clickOnLogOutButton();
+	//	System.out.println();
 	}
 
 }
