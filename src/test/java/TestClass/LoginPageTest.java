@@ -13,6 +13,8 @@ public class LoginPageTest extends BrowserFactory {
 	LoginPage loginpage;
 	HomePage homepage;
 
+	
+
 	@Test(dataProvider = "logindata", dataProviderClass = dataProvider.class)
 	public void loginTest(String user, String pass) throws InterruptedException {
 		loginpage = new LoginPage(driver);
