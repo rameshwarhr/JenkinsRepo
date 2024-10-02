@@ -6,23 +6,23 @@
 	</listeners>
 
 	<test thread-count="5" name="Chrome Test">
-		<parameter name="Browser" value="chrome"></parameter>
+	<!--	<parameter name="Browser" value="chrome"></parameter> -->
 		<classes>
 			<class name="TestClass.LoginPageTest" />
 			<class name="TestClass.HomePageTest"></class>
 		</classes>
 	</test> <!--Test -->
-<!--Test 
 
+<!--
 	<test thread-count="5" name="firefox Test">
 		<parameter name="Browser" value="firefox"></parameter>
 		<classes>
 			<class name="TestClass.LoginPageTest" />
 			<class name="TestClass.HomePageTest"></class>
 		</classes>
-	</test> -->
+	</test> 
 
-<!--
+
 
 	<test thread-count="5" name="Edge Test">
 		<parameter name="Browser" value="edge"></parameter>
