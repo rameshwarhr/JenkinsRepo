@@ -5,8 +5,8 @@
     <classes>
       <class name="TestClass.LoginPageTest">
         <methods>
-          <include name="closedBrowser"/>
           <include name="launchBrowser"/>
+          <include name="LogOutTheUser"/>
           <include name="loginTest"/>
         </methods>
       </class> <!-- TestClass.LoginPageTest -->

@@ -10,10 +10,16 @@
         <methods>
           <include name="launchBrowser"/>
           <include name="LogOutTheUser"/>
-          <include name="closeBrowser"/>
-          <include name="loginTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="loginTest"/>
         </methods>
       </class> <!-- TestClass.LoginPageTest -->
+      <class name="TestClass.HomePageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="checkBackPackIsAvailiable"/>
+          <include name="LogOutTheUser"/>
+        </methods>
+      </class> <!-- TestClass.HomePageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
